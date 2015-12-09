@@ -8,6 +8,8 @@ Curious about how Git works? <a href="https://www.youtube.com/watch?v=xKVlZ3wFVK
 ## Office Hours
 Office hours will be held at the Uptown Espresso at 4th and Wall on Sundays from 3pm to 4pm. <br/>
 Feel free to swing by to ask questions and/or work on homework!
+<br/><br/>
+You can find the homework repository <a href="https://github.com/ga-students/iOS-SEA-1-Homework">HERE</a>!
 
 ## Schedule
 
