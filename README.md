@@ -1,7 +1,7 @@
 # iOS Development in Swift (Seattle)
 
 ## Announcements
-Welcome back! Please make sure you have the first assignment completed. We'll go over how to submit homework first thing in Lecture 3.
+Please have Xcode open at the beginning of class. Today we'll be playing more with Playgrounds. We'll have Q&A at the end of class for any homework questions.
 <br/><br/>
 Curious about how Git works? <a href="https://www.youtube.com/watch?v=xKVlZ3wFVKA&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD">Here</a> is a YouTube list that can help.
 
@@ -56,7 +56,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Intro to Swift</td>
     <!-- Notes -->
-    <td>The Swift Programming Language</td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session2/.Lesson03.key">The Swift Programming Language</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Swift Basics</a></td>
     <!-- Bonus Blog -->
