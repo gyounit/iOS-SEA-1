@@ -68,6 +68,18 @@ Final note: don't be afraid to have long function names, they'll help you in big
 // That parameter will be an int that let's us specify how many times we want to knock
 // Within the function we have a loop that runs x ammount of times that calls the knock knock function
 
+for var index = 0; index < 5; index++ {
+    print("I printed \(index) times already!")
+}
+
+func knockNumberOfTimes(times: Int) {
+    for var index = 0; index < times; index++ {
+        print("Knock knock!")
+    }
+}
+
+// knock enough times to get attention
+knockNumberOfTimes(10)
 
 // HAHAHA, okay let's answer before the person behind the door goes nuts!
 // We will write a replyWhoIsHere function that accepts 2 parameters
@@ -83,11 +95,18 @@ Final note: don't be afraid to have long function names, they'll help you in big
 /*
 let currentDate = NSDate()
 let currentCalendar = NSCalendar.currentCalendar()
-let currentYear = currentCalendar.component(NSCalendarUnit.CalendarUnitYear, fromDate: currentDate)
+let currentYear = currentCalendar.component(NSCalendarUnit.Year, fromDate: currentDate)
 let age = currentYear - yearOfBirth
 */
 // Return the age at the end of the function
 
+let yearOfBirth = 1985
+
+let currentDate = NSDate()
+let currentCalendar = NSCalendar.currentCalendar()
+let currentYear = currentCalendar.component(NSCalendarUnit.Year, fromDate: currentDate)
+let age = currentYear - yearOfBirth
+print("Marty McFly is \(age) years old (at least!)")
 
 // Create a function tellNameAndAge that has two parameters
 // Parameter one is the name (String), parameter two is the yearOfBirth(Int)
