@@ -9,19 +9,19 @@
 import Foundation
 
 class Math: AnyObject {
-    func add(left: Double, right: Double) {
+    class func add(left: Double, right: Double) {
         
     }
     
-    func subtract(left: Double, right: Double) {
+    class func subtract(left: Double, right: Double) {
         
     }
     
-    func divide(left: Double, right: Double) {
+    class func divide(left: Double, right: Double) {
         
     }
     
-    func multiply(left: Double, right: Double) {
+    class func multiply(left: Double, right: Double) {
         
     }
 }
