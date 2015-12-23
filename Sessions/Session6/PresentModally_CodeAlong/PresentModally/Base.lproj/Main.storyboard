@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqn-XC-Kjb">
-                                <rect key="frame" x="278.5" y="285" width="43" height="30"/>
+                                <rect key="frame" x="279" y="285" width="43" height="30"/>
                                 <state key="normal" title="Log in">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hjx-p1-cpI" kind="presentation" id="KaJ-bK-uqQ"/>
+                                    <segue destination="Hjx-p1-cpI" kind="presentation" identifier="" id="KaJ-bK-uqQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -107,7 +107,7 @@
         <!--Thanks View Controller-->
         <scene sceneID="1DT-aj-Ynd">
             <objects>
-                <viewController id="uzA-EL-Lwz" customClass="ThanksViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Thanks" id="uzA-EL-Lwz" customClass="ThanksViewController" customModule="PresentModally" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GT0-sK-kMO"/>
                         <viewControllerLayoutGuide type="bottom" id="zXY-HF-J37"/>
@@ -117,7 +117,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THANKS!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVF-cu-Ey5">
-                                <rect key="frame" x="206" y="274" width="187.5" height="52"/>
+                                <rect key="frame" x="206" y="274" width="188" height="52"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -148,6 +148,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdI-QU-WaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2561" y="251"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hzI-6k-USc">
+            <objects>
+                <viewController id="IZ5-kb-cYR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n5h-MK-UI2"/>
+                        <viewControllerLayoutGuide type="bottom" id="aw5-tg-qOW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lWa-fL-NmA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7GN-SH-Ux0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2099" y="971"/>
         </scene>
     </scenes>
 </document>

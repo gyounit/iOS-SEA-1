@@ -23,7 +23,14 @@ class ViewController: UIViewController {
     
     @IBAction func didTapLogin(sender: AnyObject) {
         if emailField.text?.characters.count > 0 {
-            performSegueWithIdentifier("thanks", sender: nil)
+//            performSegueWithIdentifier("thanks", sender: nil)
+            var storyboard = UIStoryboard(name: "Main", bundle: nil)
+            var thanksVC = storyboard.instantiateViewControllerWithIdentifier("Thanks")
+            navigationController?.pushViewController(thanksVC, animated: true)
+            
+        } else {
+            var alert = UIAlertView(title: "No Input!", message: "You did not put in any characters...", delegate: nil, cancelButtonTitle: "OK")
+            alert.show()
         }
     }
 }
