@@ -144,7 +144,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YPL-ym-Isi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50" y="-557"/>
+            <point key="canvasLocation" x="50" y="-497"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LTu-8o-eGd">
@@ -295,6 +295,6 @@
         <image name="UW Logo" width="720" height="496"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MJ4-9l-xr4"/>
+        <segue reference="xyB-9G-Bac"/>
     </inferredMetricsTieBreakers>
 </document>
