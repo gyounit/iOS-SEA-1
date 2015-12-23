@@ -1,9 +1,7 @@
 # iOS Development in Swift (Seattle)
 
 ## Announcements
-Welcome back! Please make sure you have the first assignment completed. We'll go over how to submit homework first thing in Lecture 3.
-<br/><br/>
-Curious about how Git works? <a href="https://www.youtube.com/watch?v=xKVlZ3wFVKA&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD">Here</a> is a YouTube list that can help.
+Today we're going over Object Oriented Programming. This class is focused on software design and making your code more readable, extendable, and functional than before!
 
 ## Office Hours
 Office hours will be held at the Uptown Espresso at 4th and Wall on Sundays from 3pm to 4pm. <br/>
@@ -56,7 +54,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Intro to Swift</td>
     <!-- Notes -->
-    <td>The Swift Programming Language</td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session2/Lesson03.key">The Swift Programming Language</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Swift Basics</a></td>
     <!-- Bonus Blog -->
@@ -69,12 +67,47 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Intro to Functions</td>
     <!-- Notes -->
-    <td>Functions in Swift</td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session3/Lesson04.key">Functions in Swift</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Swift Basics</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html">Why Use Functions?</a></td>
     </tr>
+    <tr>
+  <!-- Date -->
+    <td>Tuesday, Dec 15</td>
+    <!-- Unit -->
+    <td>Interface Builder and Swift</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session4/Lesson05.key">IB and Swift</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html">Reusable Views in IB</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Dec 17</td>
+    <!-- Unit -->
+    <td>Object Oriented Programming</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Dec 22</td>
+    <!-- Unit -->
+    <td>UI Elements and View Controllers</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
+    </tr>
+
 
 </table>
 
