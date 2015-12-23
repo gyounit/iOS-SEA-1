@@ -37,6 +37,52 @@ scoreKeeper.score = 400
 // - if health drops to/below 0, tell the user they are dead
 // - recommendation: handle this through a method that gets called through the property obbservers
 
+protocol EatsFood {
+    func eat(food: String)
+}
+
+struct Employee: EatsFood {
+    var name: String
+    var id: Int
+    
+    func eat(food: String) {
+        
+    }
+}
+
+class Animal: EatsFood {
+    var name: String
+    
+    init() {
+        name = "Fluffy"
+    }
+    
+    func eat(food: String) {
+        
+    }
+}
+
+var bob = Employee(name: "Bob", id: 1)
+var fred = Employee(name: "Fred", id: 2)
+
+bob = fred
+bob.name = "Bob"
+// Does not change Fred when we change Bob
+print(bob)
+print(fred)
+
+var animal1 = Animal()
+var animal2 = Animal()
+
+animal2.name = "Fido"
+
+animal1 = animal2
+
+print(animal1.name)
+
+animal1.name = "Something else? I dunno!"
+print(animal1.name)
+print(animal2.name)
 
 // Prototype pattern: The prototype pattern is used to instantiate a new object by copying all of the properties of an existing object, creating an independent clone. This practise is particularly useful when the construction of a new object is inefficient.
 // Note when you have var ena = Animal(); var anotherDog = ena;, both the variables will be changing the properties of the same object. This allows us to actually clone an object without it just being a reference (which is a property of classes)

@@ -90,7 +90,18 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Object Oriented Programming</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key"> -->Object Oriented Programming<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Dec 22</td>
+    <!-- Unit -->
+    <td>UI Elements and View Controllers</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
     <!-- Bonus Blog -->

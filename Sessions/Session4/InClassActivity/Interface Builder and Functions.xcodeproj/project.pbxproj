@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A09357D1C27727000378C80 /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09357C1C27727000378C80 /* SomeModel.swift */; };
+		5A09357F1C2773AA00378C80 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09357E1C2773AA00378C80 /* Store.swift */; };
+		5A0935811C2773C200378C80 /* StoreHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0935801C2773C200378C80 /* StoreHours.swift */; };
+		5A0935831C2774C500378C80 /* Repair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0935821C2774C500378C80 /* Repair.swift */; };
+		5A0935851C27753F00378C80 /* StoreInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0935841C27753F00378C80 /* StoreInteractor.swift */; };
 		7C2DDAD21A5DC0F700AE2FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DDAD11A5DC0F700AE2FAB /* AppDelegate.swift */; };
 		7C2DDAD51A5DC0F700AE2FAB /* Interface_Builder_and_Functions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DDAD31A5DC0F700AE2FAB /* Interface_Builder_and_Functions.xcdatamodeld */; };
 		7C2DDAD71A5DC0F700AE2FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DDAD61A5DC0F700AE2FAB /* ViewController.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A09357C1C27727000378C80 /* SomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
+		5A09357E1C2773AA00378C80 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		5A0935801C2773C200378C80 /* StoreHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreHours.swift; sourceTree = "<group>"; };
+		5A0935821C2774C500378C80 /* Repair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repair.swift; sourceTree = "<group>"; };
+		5A0935841C27753F00378C80 /* StoreInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreInteractor.swift; sourceTree = "<group>"; };
 		7C2DDACC1A5DC0F700AE2FAB /* Interface Builder and Functions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interface Builder and Functions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2DDAD01A5DC0F700AE2FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C2DDAD11A5DC0F700AE2FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +91,11 @@
 			children = (
 				7C2DDAD11A5DC0F700AE2FAB /* AppDelegate.swift */,
 				7C2DDAD61A5DC0F700AE2FAB /* ViewController.swift */,
+				5A09357E1C2773AA00378C80 /* Store.swift */,
+				5A0935841C27753F00378C80 /* StoreInteractor.swift */,
+				5A0935821C2774C500378C80 /* Repair.swift */,
+				5A0935801C2773C200378C80 /* StoreHours.swift */,
+				5A09357C1C27727000378C80 /* SomeModel.swift */,
 				7C2DDAD81A5DC0F700AE2FAB /* Main.storyboard */,
 				7C2DDADB1A5DC0F700AE2FAB /* Images.xcassets */,
 				7C2DDADD1A5DC0F700AE2FAB /* LaunchScreen.xib */,
@@ -216,9 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0935851C27753F00378C80 /* StoreInteractor.swift in Sources */,
+				5A09357F1C2773AA00378C80 /* Store.swift in Sources */,
 				7C2DDAD71A5DC0F700AE2FAB /* ViewController.swift in Sources */,
+				5A0935831C2774C500378C80 /* Repair.swift in Sources */,
 				7C2DDAD21A5DC0F700AE2FAB /* AppDelegate.swift in Sources */,
+				5A0935811C2773C200378C80 /* StoreHours.swift in Sources */,
 				7C2DDAD51A5DC0F700AE2FAB /* Interface_Builder_and_Functions.xcdatamodeld in Sources */,
+				5A09357D1C27727000378C80 /* SomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

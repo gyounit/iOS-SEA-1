@@ -68,4 +68,6 @@ travis.name = "Travis"
 print(travis.name)
 travis = rudd
 
+print(travis.name)
+
 var name: String?
