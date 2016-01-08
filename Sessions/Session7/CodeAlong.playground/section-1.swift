@@ -6,9 +6,10 @@ var someInts = [0, 1, 2, 3]
 someInts.append(4)
 
 var someIntsCopy = someInts
-someIntsCopy.removeLast()
+var lostInt = someIntsCopy.removeLast()
+lostInt
 
-someInts
+debugPrint(someInts)
 someIntsCopy
 
 someInts.insert(1, atIndex: 1)
@@ -55,6 +56,19 @@ func doFiveTimes(someClosure: () -> ()) {
 doFiveTimes({ () -> () in
     print("this happens five times!")
 })
+
+// syntax example for passing closures as arguments
+func doFiveTimes(someClosure: (name: String) -> (Int)) {
+    for i in 0..<5 {
+        // This runs 5 times
+        someClosure(name: "Jack")
+    }
+}
+
+doFiveTimes { (name) -> (Int) in
+    print("Hello, \(name)! I've talked to you five times!")
+    return 5
+}
 
 func printInt(someInt: Int) {
     print(someInt)
@@ -105,7 +119,10 @@ let humanNamesUsingMap = humans.map({(human: Human) -> String? in
     return human.name
 })
 
+print(humanNamesUsingMap)
+
 let numbers = [0, 1, 2, 3, 4]
+
 let sum = numbers.reduce(0, combine: +)
 let sumWithClosureInline = numbers.reduce(0, combine: {(v1: Int, v2: Int) -> Int in
     return v1 + v2
