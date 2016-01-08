@@ -101,11 +101,46 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>UI Elements and View Controllers</td>
     <!-- Notes -->
-    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session6/Lesson07.key">Object Oriented Programming</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week04/intro.html">Deep Dive with Swift</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Jan 5</td>
+    <!-- Unit -->
+    <td>Data Structures</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session7/Lesson08.key">Arrays and Dictionaries</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://nshipster.com/swift-collection-protocols/">Collections in Swift</a></td>
+    </tr>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Jan 7</td>
+    <!-- Unit -->
+    <td>Hands on With Table Views</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson09.key">UITableView</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://bayphillips.com/2014/06/06/playing-swift-uiviewcontroller-uitableview/">UITableView Examples</a></td>
+    </tr>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Jan 12</td>
+    <!-- Unit -->
+    <td>Design Patterns</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson09.key">Using iOS Design Patterns</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/">Analysis of the Delegate Pattern</a></td>
     </tr>
 
 

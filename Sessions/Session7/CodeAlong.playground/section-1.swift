@@ -5,6 +5,8 @@ import UIKit
 var someInts = [0, 1, 2, 3]
 someInts.append(4)
 
+someInts[2] = 5
+
 var someIntsCopy = someInts
 var lostInt = someIntsCopy.removeLast()
 lostInt
@@ -15,6 +17,7 @@ someIntsCopy
 someInts.insert(1, atIndex: 1)
 someInts.count
 //someInts[10] This is an error
+
 
 for someInt in someInts {
     print(someInt)

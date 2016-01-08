@@ -10,7 +10,14 @@ import UIKit
 
 class MainTableViewController: UITableViewController {
 
-    var todos = ["groceries", "homework", "walk dog"]
+    var todos = [
+        Todo(name: "groceries", status: TaskStatus.Incomplete, dueDate: NSDate()),
+        Todo(name: "homework", status: .Incomplete, dueDate: NSDate()),
+        Todo(name: "walk dog", status: .Incomplete, dueDate: NSDate()),
+        Todo(name: "teach class", status: .Incomplete, dueDate: NSDate()),
+        Todo(name: "clean fridge", status: .Complete, dueDate: NSDate()),
+        Todo(name: "fight evil", status: .Incomplete, dueDate: NSDate())
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +29,11 @@ class MainTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if let destination = segue.destinationViewController as? ModalViewController {
-            destination.todoViewController = self
-        }
-    }
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if let destination = segue.destinationViewController as? ModalViewController {
+//            destination.todoViewController = self
+//        }
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -50,13 +57,19 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) 
         
-        cell.textLabel?.text = todos[indexPath.row]
+        var currentTodo: Todo = todos[indexPath.row]
+        
+        // cell should look like:
+        // "taskName: taskStatus"
+        cell.textLabel?.text = currentTodo.taskName
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPathThatILove: NSIndexPath) {
         let cell = self.tableView(tableView, cellForRowAtIndexPath: indexPathThatILove)
         cell.backgroundColor = UIColor.blueColor()
+        
+        let selectedTodo = todos[indexPathThatILove.row]
     }
 
     
@@ -94,14 +107,18 @@ class MainTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        var destination = segue.destinationViewController as! TodoDetailViewController
+        
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            destination.selectedTodo = todos[indexPath.row]
+        }
+        
     }
-    */
 
 }
