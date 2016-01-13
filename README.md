@@ -138,7 +138,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson09.key">Using iOS Design Patterns</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Weekly Chapter</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/">Analysis of the Delegate Pattern</a></td>
     </tr>

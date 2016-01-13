@@ -16,11 +16,11 @@ class PersonTableViewCell: UITableViewCell {
     
     var cellPerson: Person? {
         didSet {
-            personImage = cellPerson?.image
-            personName = cellPerson?.name
+            personImage.image = cellPerson?.image
+            personName.text = cellPerson?.name
         }
     }
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
