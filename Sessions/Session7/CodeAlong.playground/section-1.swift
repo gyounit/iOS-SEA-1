@@ -87,6 +87,7 @@ var firstElement = arrayOfInts[1]
 
 var age: [String: Int] = ["rudd": 29, "sam": 20]
 age["kevin"] = 20
+age["rudd"] = nil
 age["rudd"] = 15
 let ruddsAge = age["rudd"]
 age["billy"]
@@ -100,6 +101,7 @@ class Human {
     var age: Int?
     var name: String?
 }
+
 var rudd = Human()
 rudd.age = 29
 rudd.name = "Rudd"
@@ -110,6 +112,8 @@ sean.name = "Sean"
 // Advanced closures
 
 let humans: [Human] = [rudd, sean]
+
+let humanDict: [String: Human] = ["rudd": rudd, "sean": sean]
 
 var humanNames: [String] = []
 for human in humans {

@@ -10,7 +10,11 @@ import UIKit
 
 // this is a model class
 class Person: AnyObject {
-    var image
-    var name
+    var image: UIImage
+    var name: String?
+    
+    init() {
+        image = UIImage()
+    }
     
 }

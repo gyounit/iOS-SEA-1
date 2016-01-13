@@ -24,7 +24,8 @@ class ViewController: UITableViewController {
         // table view now knows that anything with the 
         // reuse identifier of "Cell" is a
         // PersonTableViewCell
-        tableView.registerNib(UINib(nibName: "PersonTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
+//        tableView.registerNib(UINib(nibName: "PersonTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
+        tableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "Cell")
     }
     
     let teachers = ["Rudd", "Travis", "Sean"]
