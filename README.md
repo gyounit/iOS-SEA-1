@@ -136,11 +136,22 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Design Patterns</td>
     <!-- Notes -->
-    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson09.key">Using iOS Design Patterns</a></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson10.key">Using iOS Design Patterns</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Weekly Chapter</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/">Analysis of the Delegate Pattern</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Jan 14</td>
+    <!-- Unit -->
+    <td>Autolayout in Depth</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson11.key">Using iOS Design Patterns</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Weekly Chapter</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html">Visual Format Language</a></td>
     </tr>
 
 
