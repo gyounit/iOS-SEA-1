@@ -44,7 +44,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <td> - <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session1/Lesson02.pdf"> Scenes and Segues<br/>
     - <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session1/Assignment1.pdf">Assignment 1</a> (due <b>Tuesday December 8th</b>)</td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week01/ib.html">Interface Builder Basics</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week01/ib.html">Chapter One</a></td>
     <!-- Bonus Blog -->
      <td><a href="http://nshipster.com/ibaction-iboutlet-iboutletcollection/">IBOutlet and IBAction</a></td>
   </tr>
@@ -56,7 +56,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session2/Lesson03.key">The Swift Programming Language</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Swift Basics</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Chapter Two</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://developer.apple.com/swift/blog/?id=29">Apple Announcement for Swift 2.0</a></td>
     </tr>
@@ -69,7 +69,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session3/Lesson04.key">Functions in Swift</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Swift Basics</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week02/intro.html">Chapter Two</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html">Why Use Functions?</a></td>
     </tr>
@@ -81,7 +81,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session4/Lesson05.key">IB and Swift</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Chapter Three</a></td>
     <!-- Bonus Blog -->
     <td><a href="http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html">Reusable Views in IB</a></td>
     </tr>
@@ -92,7 +92,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session5/Lesson06.key">Object Oriented Programming</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Deep Dive with Swift</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week03/intro.html">Chapter Three</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
     </tr>
@@ -103,7 +103,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session6/Lesson07.key">Object Oriented Programming</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week04/intro.html">Deep Dive with Swift</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week04/intro.html">Chapter Four</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
     </tr>
@@ -114,7 +114,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session7/Lesson08.key">Arrays and Dictionaries</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week04/intro.html">Chapter Four</a></td>
     <!-- Bonus Blog -->
     <td><a href="http://nshipster.com/swift-collection-protocols/">Collections in Swift</a></td>
     </tr>
@@ -126,7 +126,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Notes -->
     <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson09.key">UITableView</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Weekly Chapter</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week04/intro.html">Chapter Four</a></td>
     <!-- Bonus Blog -->
     <td><a href="http://bayphillips.com/2014/06/06/playing-swift-uiviewcontroller-uitableview/">UITableView Examples</a></td>
     </tr>
@@ -136,9 +136,9 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Design Patterns</td>
     <!-- Notes -->
-    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson10.key">Using iOS Design Patterns</a></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session9/Lesson10.key">Using iOS Design Patterns</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Weekly Chapter</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Chapter Five</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/">Analysis of the Delegate Pattern</a></td>
     </tr>
@@ -147,11 +147,88 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Autolayout in Depth</td>
     <!-- Notes -->
-    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session8/Lesson11.key">Using iOS Design Patterns</a></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session10/Lesson11.key">Using iOS Design Patterns</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Weekly Chapter</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week05/intro.html">Chapter Five</a></td>
     <!-- Bonus Blog -->
     <td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html">Visual Format Language</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Jan 19</td>
+    <!-- Unit -->
+    <td>Autolayout in Depth</td>
+    <!-- Notes -->
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session11/Lesson12.key">More Autolayout!</a></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Chapter Six</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://www.raywenderlich.com/110393/auto-layout-visual-format-language-tutorial">Visual Format Language, cont'd</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Jan 21</td>
+    <!-- Unit -->
+    <td>Midterm Day 1</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/Lesson13.key"> -->Midterm Project<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Chapter Six</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="https://www.brainpickings.org/2013/12/03/stuart-firestein-ted/">Conscious Ignorance and You</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Jan 26</td>
+    <!-- Unit -->
+    <td>Midterm Day 2</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session13/Lesson14.key"> -->Midterm Project<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week07/intro.html">Chapter Seven</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://myapptemplates.com/99-iphone-app-ideas-that-could-make-you-rich-the-full-list/">Ideas for App Projects</a></td>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Jan 28</td>
+    <!-- Unit -->
+    <td>Files and Data Persistence</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Persistence<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week07/intro.html">Chapter Seven</a></td>
+    <!-- Bonus Blog -->
+    <td><!-- <a href=""></a> --></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Feb 2</td>
+    <!-- Unit -->
+    <td>Notsy and Core Data</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Persistence<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week08/intro.html">Chapter Eight</a></td>
+    <!-- Bonus Blog -->
+    <td><!-- <a href=""></a> --></td>
+    </tr>
+    <!-- Date -->
+    <td>Thursday, Feb 4</td>
+    <!-- Unit -->
+    <td>Basic Networking</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Networking and You<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Eight</a></td>
+    <!-- Bonus Blog -->
+    <td><!-- <a href=""></a> --></td>
+    </tr>
+    <!-- Date -->
+    <td>Tuesday, Feb 9</td>
+    <!-- Unit -->
+    <td>Data Modeling and Backend Programming</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Models<!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Nine</a></td>
+    <!-- Bonus Blog -->
+    <td><!-- <a href=""></a> --></td>
     </tr>
 
 
