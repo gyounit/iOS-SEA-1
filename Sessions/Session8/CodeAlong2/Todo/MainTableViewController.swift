@@ -26,7 +26,8 @@ class MainTableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        //self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.navigationItem.leftBarButtonItem = self.editButtonItem()
     }
     
 //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -92,6 +93,7 @@ class MainTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             // Delete the row from the data source
+            todos.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
@@ -120,12 +122,20 @@ class MainTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
-        let destination = segue.destinationViewController as! TodoDetailViewController
-        
-        if let indexPath = self.tableView.indexPathForSelectedRow {
-            destination.selectedTodo = todos[indexPath.row]
+        if segue.identifier == "ShowTodo" {
+            let destination = segue.destinationViewController as! TodoDetailViewController
+            
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                destination.selectedTodo = todos[indexPath.row]
+            }
+            
         }
         
+        if segue.identifier == "add" {
+            let destination = segue.destinationViewController as! ModalViewController
+            destination.todoViewController = self
+        }
     }
-
 }
+
+

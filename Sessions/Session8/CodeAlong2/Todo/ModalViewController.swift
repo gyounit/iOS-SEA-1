@@ -14,8 +14,9 @@ class ModalViewController: UIViewController, UITextFieldDelegate {
     var todoViewController: MainTableViewController?
     
     @IBAction func didTapButton(sender: AnyObject) {
-        if let text = textField.text {
-//            todoViewController?.todos.append(text)
+        if let text = textField.text,
+            todoViewController = todoViewController {
+                todoViewController.todos.insert(Todo(name: text, status: TaskStatus.Incomplete, dueDate: NSDate()), atIndex: 0)
         }
         
         dismissViewControllerAnimated(true, completion: nil)
@@ -42,6 +43,21 @@ class ModalViewController: UIViewController, UITextFieldDelegate {
         textField.placeholder = "email@domain.com"
     }
 
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        //dismiss keyboard
+    textField.resignFirstResponder()
+        didTapButton(textField)
+        return true
+        
+        
+        
+    }
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
