@@ -169,7 +169,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Midterm Day 1</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/Lesson13.key"> -->Midterm Project<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/MidtermProject-AssignmentPrompt.pdf">Midterm Project</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Chapter Six</a></td>
     <!-- Bonus Blog -->
