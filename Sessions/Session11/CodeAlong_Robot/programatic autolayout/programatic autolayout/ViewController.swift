@@ -4,6 +4,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var head: UIView!
     
+    //declaring views
     var body = UIView()
     var leftArm = UIView()
     var rightArm = UIView()
