@@ -1,8 +1,5 @@
 # iOS Development in Swift (Seattle)
 
-## Announcements
-Today we're going over Object Oriented Programming. This class is focused on software design and making your code more readable, extendable, and functional than before!
-
 ## Office Hours
 Office hours will be held at the Uptown Espresso at 4th and Wall on Sundays from 3pm to 4pm. <br/>
 Feel free to swing by to ask questions and/or work on homework!
@@ -169,7 +166,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Midterm Day 1</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/Lesson13.key"> -->Midterm Project<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/MidtermProject-AssignmentPrompt.pdf">Midterm Project</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week06/intro.html">Chapter Six</a></td>
     <!-- Bonus Blog -->
@@ -180,7 +177,7 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Midterm Day 2</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session13/Lesson14.key"> -->Midterm Project<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session12/MidtermProject-AssignmentPrompt.pdf">Midterm Project</a> </td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week07/intro.html">Chapter Seven</a></td>
     <!-- Bonus Blog -->
@@ -191,29 +188,29 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Unit -->
     <td>Files and Data Persistence</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Persistence<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session15/Lesson15.key">Data Persistence</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week07/intro.html">Chapter Seven</a></td>
     <!-- Bonus Blog -->
-    <td><!-- <a href=""></a> --></td>
+    <td><a href="http://www.raywenderlich.com/63235/how-to-save-your-game-data-tutorial-part-1-of-2">Saving Data</a></td>
     </tr>
     <!-- Date -->
     <td>Tuesday, Feb 2</td>
     <!-- Unit -->
-    <td>Notsy and Core Data</td>
+    <td>Data Modeling and Core Data</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Persistence<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session16/Lesson16.key">Data Modeling and Persistence</a></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week08/intro.html">Chapter Eight</a></td>
     <!-- Bonus Blog -->
-    <td><!-- <a href=""></a> --></td>
+    <td><a href="http://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1">iOS Design Patterns</a></td>
     </tr>
     <!-- Date -->
     <td>Thursday, Feb 4</td>
     <!-- Unit -->
-    <td>Basic Networking</td>
+    <td></td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Networking and You<!-- </a> --></td>
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Project Hack Day<!-- </a> --></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Eight</a></td>
     <!-- Bonus Blog -->
@@ -222,14 +219,26 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Date -->
     <td>Tuesday, Feb 9</td>
     <!-- Unit -->
-    <td>Data Modeling and Backend Programming</td>
+    <td>Basic Networking</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Data Models<!-- </a> --></td>
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Basic Networking<!-- </a> --></td>
     <!-- Readings -->
     <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Nine</a></td>
     <!-- Bonus Blog -->
     <td><!-- <a href=""></a> --></td>
     </tr>
+    <!-- Date -->
+    <td>Thursday, Feb 11</td>
+    <!-- Unit -->
+    <td>Project Hack Day</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> --><!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Nine</a></td>
+    <!-- Bonus Blog -->
+    <td><!-- <a href=""></a> --></td>
+    </tr>
+
 
 
 </table>
