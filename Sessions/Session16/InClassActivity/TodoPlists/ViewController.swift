@@ -21,12 +21,18 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
         }
     }
     
-    
     @IBAction func didTapAdd(sender: AnyObject) {
-        let alert = UIAlertView(title: "Item Name?", message: "Enter an item name", delegate: self, cancelButtonTitle: "Dismiss", otherButtonTitles: "Add")
+        let alert =
+        UIAlertView(title: "Item Name?",
+            message: "Enter an item name",
+            delegate: self,
+            cancelButtonTitle: "Dismiss",
+            otherButtonTitles: "Add")
         alert.alertViewStyle = UIAlertViewStyle.PlainTextInput
         alert.show()
     }
+    
+    // MARK: - UIAlertView Delegate
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
         if buttonIndex != alertView.cancelButtonIndex {
@@ -75,5 +81,14 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
         cell.textLabel?.text = stringAtSpecifiedIndex
         return cell
     }
+    
+    
 }
 
+// MARK: - UITableViewDelegate
+
+extension ViewController: UITableViewDelegate {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+}

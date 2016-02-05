@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CoreDataProject
+//  TestCore
 //
-//  Created by Rudd Taylor on 9/12/15.
-//  Copyright © 2015 General Assembly. All rights reserved.
+//  Created by Owen Pierce on 2/2/16.
+//  Copyright © 2016 Owen Pierce. All rights reserved.
 //
 
 import UIKit
@@ -17,16 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let animalFetchRequest = NSFetchRequest(entityName: "Animal")
-        do {
-            let results = try managedObjectContext.executeFetchRequest(animalFetchRequest)
-            if results.count == 1 {
-                addTestData()
-            }
-        } catch {
-            fatalError("Error fetching data!")
-        }
-        
         return true
     }
 
@@ -57,14 +47,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: NSURL = {
-        // The directory the application uses to store the Core Data store file. This code uses a directory named "com.generalassembly.CoreDataProject" in the application's documents Application Support directory.
+        // The directory the application uses to store the Core Data store file. This code uses a directory named "GeneralAssembly.TestCore" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1]
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-        let modelURL = NSBundle.mainBundle().URLForResource("CoreDataProject", withExtension: "momd")!
+        let modelURL = NSBundle.mainBundle().URLForResource("TestCore", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
 
@@ -75,9 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
-            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options:
-                [NSMigratePersistentStoresAutomaticallyOption: true,
-                    NSInferMappingModelAutomaticallyOption: true])
+            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
         } catch {
             // Report any error we got.
             var dict = [String: AnyObject]()
@@ -102,12 +90,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         managedObjectContext.persistentStoreCoordinator = coordinator
         return managedObjectContext
     }()
-    
-    class func sharedObjectContext() -> NSManagedObjectContext {
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        
-        return appDelegate.managedObjectContext
-    }
 
     // MARK: - Core Data Saving support
 
@@ -123,33 +105,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 abort()
             }
         }
-    }
-    
-    func addTestData() {
-        guard let entity =
-        NSEntityDescription.entityForName("Animal",
-            inManagedObjectContext: managedObjectContext) else {
-                fatalError("Could not find animal description!")
-        }
-        guard let environmentEntity =
-        NSEntityDescription.entityForName("Environment",
-            inManagedObjectContext: managedObjectContext) else {
-                fatalError("Could not find environment description!")
-        }
-        
-        let animalNames = ["Fish", "Wolf", "Bear"]
-        for name in animalNames {
-            let animal = Animal(entity: entity, insertIntoManagedObjectContext: managedObjectContext)
-            animal.name = name
-        }
-        
-        let environmentNames = ["Ocean", "Forest"]
-        for name in environmentNames {
-            let environment = Environment(entity: environmentEntity, insertIntoManagedObjectContext: managedObjectContext)
-            environment.name = name
-        }
-        
-        saveContext()
     }
 
 }

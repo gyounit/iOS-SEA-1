@@ -12,6 +12,7 @@ import CoreData
 @objc(Animal)
 
 class Animal: NSManagedObject {
-    @NSManaged var name: String
+    
+    
 }
 
