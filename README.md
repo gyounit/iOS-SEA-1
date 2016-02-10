@@ -64,9 +64,9 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://developer.apple.com/swift/blog/?id=29">Apple Announcement for Swift 2.0</a></td>
     </tr>
+    <tr>
     <!-- Lesson Number -->
     <td>4</td>
-    <tr>
     <!-- Date -->
     <td>Thursday, Dec 10</td>
     <!-- Unit -->
