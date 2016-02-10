@@ -17,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let animalFetchRequest = NSFetchRequest(entityName: "Animal")
+        do {
+            let results = try managedObjectContext.executeFetchRequest(animalFetchRequest)
+            if results.count == 1 {
+                addTestData()
+            }
+        } catch {
+            fatalError("Error fetching data!")
+        }
+        
         return true
     }
 
@@ -65,7 +75,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
-            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
+            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options:
+                [NSMigratePersistentStoresAutomaticallyOption: true,
+                    NSInferMappingModelAutomaticallyOption: true])
         } catch {
             // Report any error we got.
             var dict = [String: AnyObject]()
@@ -90,6 +102,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         managedObjectContext.persistentStoreCoordinator = coordinator
         return managedObjectContext
     }()
+    
+    class func sharedObjectContext() -> NSManagedObjectContext {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        return appDelegate.managedObjectContext
+    }
 
     // MARK: - Core Data Saving support
 
@@ -105,6 +123,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 abort()
             }
         }
+    }
+    
+    func addTestData() {
+        guard let entity =
+        NSEntityDescription.entityForName("Animal",
+            inManagedObjectContext: managedObjectContext) else {
+                fatalError("Could not find animal description!")
+        }
+        guard let environmentEntity =
+        NSEntityDescription.entityForName("Environment",
+            inManagedObjectContext: managedObjectContext) else {
+                fatalError("Could not find environment description!")
+        }
+        
+        let animalNames = ["Fish", "Wolf", "Bear"]
+        for name in animalNames {
+            let animal = Animal(entity: entity, insertIntoManagedObjectContext: managedObjectContext)
+            animal.name = name
+        }
+        
+        let environmentNames = ["Ocean", "Forest"]
+        for name in environmentNames {
+            let environment = Environment(entity: environmentEntity, insertIntoManagedObjectContext: managedObjectContext)
+            environment.name = name
+        }
+        
+        saveContext()
     }
 
 }

@@ -21,9 +21,13 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
         }
     }
     
-    
     @IBAction func didTapAdd(sender: AnyObject) {
+<<<<<<< HEAD
         let alert = UIAlertView(title: "Item Name?",
+=======
+        let alert =
+        UIAlertView(title: "Item Name?",
+>>>>>>> ga-students/master
             message: "Enter an item name",
             delegate: self,
             cancelButtonTitle: "Dismiss",
@@ -82,6 +86,7 @@ class ViewController: UIViewController, UITableViewDataSource, UIAlertViewDelega
         return cell
     }
     
+<<<<<<< HEAD
 }
 
 extension ViewController: UITableViewDelegate {
@@ -93,3 +98,15 @@ extension ViewController: UITableViewDelegate {
 //THINK ABOUT - create new view controller (another ckass), you will want it to have a textview, make sure its delegate is set up correctly, and make sure it reads data from teh correct file
 
 
+=======
+    
+}
+
+// MARK: - UITableViewDelegate
+
+extension ViewController: UITableViewDelegate {
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+}
+>>>>>>> ga-students/master

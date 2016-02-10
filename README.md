@@ -12,6 +12,7 @@ No class on: Dec 24, Dec 29, Dec 31
 
 <table>
   <tr>
+  <td><strong>Lesson Number</strong></td>
     <td><strong>Date</strong></td>
     <td><strong>Unit</strong></td>
     <td><strong>Lecture Notes</strong></td>
@@ -19,6 +20,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <td><strong>Bonus Blog</strong></td>
   </tr>
   <tr>
+  <!-- Lesson Number -->
+  <td>1</td>
   <!-- Date -->
     <td>Tue, Dec 1</td>
     <!-- Unit -->
@@ -33,7 +36,9 @@ No class on: Dec 24, Dec 29, Dec 31
 <td><a href="https://littlebitesofcocoa.com/100-just-getting-started">Just Getting Started</a></td>
   </tr>
   <tr>
-  <!-- Date -->
+    <!-- Lesson Number -->
+    <td>2</td>
+    <!-- Date -->
     <td>Thur, Dec 3</td>
     <!-- Unit -->
     <td>Intro to Nibs and Storyboards</td>
@@ -45,8 +50,10 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
      <td><a href="http://nshipster.com/ibaction-iboutlet-iboutletcollection/">IBOutlet and IBAction</a></td>
   </tr>
-  <tr>
-  <!-- Date -->
+    <tr>
+    <!-- Lesson Number -->
+    <td>3</td>
+    <!-- Date -->
     <td>Tue, Dec 8</td>
     <!-- Unit -->
     <td>Intro to Swift</td>
@@ -57,9 +64,10 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://developer.apple.com/swift/blog/?id=29">Apple Announcement for Swift 2.0</a></td>
     </tr>
-
     <tr>
-  <!-- Date -->
+    <!-- Lesson Number -->
+    <td>4</td>
+    <!-- Date -->
     <td>Thursday, Dec 10</td>
     <!-- Unit -->
     <td>Intro to Functions</td>
@@ -71,7 +79,9 @@ No class on: Dec 24, Dec 29, Dec 31
     <td><a href="https://www.cs.utah.edu/~zachary/computing/lessons/uces-10/uces-10/node11.html">Why Use Functions?</a></td>
     </tr>
     <tr>
-  <!-- Date -->
+    <!-- Lesson Number -->
+    <td>5</td>
+    <!-- Date -->
     <td>Tuesday, Dec 15</td>
     <!-- Unit -->
     <td>Interface Builder and Swift</td>
@@ -82,6 +92,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="http://www.maytro.com/2014/04/27/building-reusable-views-with-interface-builder-and-auto-layout.html">Reusable Views in IB</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>6</td>
     <!-- Date -->
     <td>Thursday, Dec 17</td>
     <!-- Unit -->
@@ -93,6 +105,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>7</td>
     <!-- Date -->
     <td>Tuesday, Dec 22</td>
     <!-- Unit -->
@@ -104,6 +118,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://www.weheartswift.com/object-oriented-programming-swift/">Object Oriented Programming in Swift</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>8</td>
     <!-- Date -->
     <td>Tuesday, Jan 5</td>
     <!-- Unit -->
@@ -116,6 +132,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <td><a href="http://nshipster.com/swift-collection-protocols/">Collections in Swift</a></td>
     </tr>
     </tr>
+    <!-- Lesson Number -->
+    <td>9</td>
     <!-- Date -->
     <td>Thursday, Jan 7</td>
     <!-- Unit -->
@@ -128,6 +146,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <td><a href="http://bayphillips.com/2014/06/06/playing-swift-uiviewcontroller-uitableview/">UITableView Examples</a></td>
     </tr>
     </tr>
+    <!-- Lesson Number -->
+    <td>10</td>
     <!-- Date -->
     <td>Tuesday, Jan 12</td>
     <!-- Unit -->
@@ -139,6 +159,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://www.andrewcbancroft.com/2015/04/08/how-delegation-works-a-swift-developer-guide/">Analysis of the Delegate Pattern</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>11</td>
     <!-- Date -->
     <td>Thursday, Jan 14</td>
     <!-- Unit -->
@@ -150,6 +172,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html">Visual Format Language</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>12</td>
     <!-- Date -->
     <td>Tuesday, Jan 19</td>
     <!-- Unit -->
@@ -161,6 +185,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="http://www.raywenderlich.com/110393/auto-layout-visual-format-language-tutorial">Visual Format Language, cont'd</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>13</td>
     <!-- Date -->
     <td>Thursday, Jan 21</td>
     <!-- Unit -->
@@ -172,6 +198,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="https://www.brainpickings.org/2013/12/03/stuart-firestein-ted/">Conscious Ignorance and You</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>14</td>
     <!-- Date -->
     <td>Tuesday, Jan 26</td>
     <!-- Unit -->
@@ -183,6 +211,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="http://myapptemplates.com/99-iphone-app-ideas-that-could-make-you-rich-the-full-list/">Ideas for App Projects</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>15</td>
     <!-- Date -->
     <td>Thursday, Jan 28</td>
     <!-- Unit -->
@@ -194,6 +224,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="http://www.raywenderlich.com/63235/how-to-save-your-game-data-tutorial-part-1-of-2">Saving Data</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>16</td>
     <!-- Date -->
     <td>Tuesday, Feb 2</td>
     <!-- Unit -->
@@ -205,6 +237,8 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><a href="http://www.raywenderlich.com/86477/introducing-ios-design-patterns-in-swift-part-1">iOS Design Patterns</a></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>17</td>
     <!-- Date -->
     <td>Thursday, Feb 4</td>
     <!-- Unit -->
@@ -216,25 +250,55 @@ No class on: Dec 24, Dec 29, Dec 31
     <!-- Bonus Blog -->
     <td><!-- <a href=""></a> --></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>18</td>
     <!-- Date -->
     <td>Tuesday, Feb 9</td>
     <!-- Unit -->
     <td>Basic Networking</td>
     <!-- Notes -->
-    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> -->Basic Networking<!-- </a> --></td>
+    <td><a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session18/Lesson18.key">Basic Networking</a></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Nine</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week09/existing_code.html">Chapter Nine</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://nshipster.com/alamofire/">Alamofire</a></td>
+    </tr>
+    <!-- Lesson Number -->
+    <td>19</td>
+    <!-- Date -->
+    <td>Thursday, Feb 11</td>
+    <!-- Unit -->
+    <td>MapKit, Location Services, and Using the Camera</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> --><!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week09/existing_code.html">Chapter Nine</a></td>
+    <!-- Bonus Blog -->
+    <td><a href="http://www.raywenderlich.com/90971/introduction-mapkit-swift-tutorial">Intro to MapKit Tutorial</a></td>
+    </tr>
+    <!-- Lesson Number -->
+    <td>20</td>
+    <!-- Date -->
+    <td>Tuesday, Feb 16</td>
+    <!-- Unit -->
+    <td>Data Modeling</td>
+    <!-- Notes -->
+    <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> --><!-- </a> --></td>
+    <!-- Readings -->
+    <td><a href="http://mobbook.generalassemb.ly/week11/app_store_submission.html">App Store Submission</a></td>
     <!-- Bonus Blog -->
     <td><!-- <a href=""></a> --></td>
     </tr>
+    <!-- Lesson Number -->
+    <td>21</td>
     <!-- Date -->
-    <td>Thursday, Feb 11</td>
+    <td>Thursday, Feb 18</td>
     <!-- Unit -->
     <td>Project Hack Day</td>
     <!-- Notes -->
     <td><!-- <a href="https://github.com/ga-students/iOS-SEA-1/blob/master/Sessions/Session14/Lesson15.key"> --><!-- </a> --></td>
     <!-- Readings -->
-    <td><a href="http://mobbook.generalassemb.ly/week09/cocoapods.html">Chapter Nine</a></td>
+    <td><a href="http://mobbook.generalassemb.ly/week11/app_store_submission.html">Chapter Nine</a></td>
     <!-- Bonus Blog -->
     <td><!-- <a href=""></a> --></td>
     </tr>

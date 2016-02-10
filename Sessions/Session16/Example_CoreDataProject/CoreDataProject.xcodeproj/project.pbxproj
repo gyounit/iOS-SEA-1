@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB44C211C61AE6100D0F389 /* Environment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB44C1F1C61AE6100D0F389 /* Environment+CoreDataProperties.swift */; };
+		5AB44C221C61AE6100D0F389 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB44C201C61AE6100D0F389 /* Environment.swift */; };
+		5AB44C261C64294900D0F389 /* Animal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB44C251C64294900D0F389 /* Animal+CoreDataProperties.swift */; };
+		5AB44C2A1C642C0B00D0F389 /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB44C291C642C0B00D0F389 /* AnimalDetailViewController.swift */; };
+		5AB44C2C1C642FD200D0F389 /* EnvironmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB44C2B1C642FD200D0F389 /* EnvironmentsViewController.swift */; };
 		5D2BE26B1BA4B42A0089A1DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BE26A1BA4B42A0089A1DD /* AppDelegate.swift */; };
 		5D2BE26D1BA4B42A0089A1DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BE26C1BA4B42A0089A1DD /* ViewController.swift */; };
 		5D2BE2701BA4B42A0089A1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2BE26E1BA4B42A0089A1DD /* Main.storyboard */; };
 		5D2BE2731BA4B42A0089A1DD /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BE2711BA4B42A0089A1DD /* CoreDataProject.xcdatamodeld */; };
 		5D2BE2751BA4B42A0089A1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2BE2741BA4B42A0089A1DD /* Assets.xcassets */; };
 		5D2BE2781BA4B42A0089A1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2BE2761BA4B42A0089A1DD /* LaunchScreen.storyboard */; };
-		5D2BE2801BA4B4540089A1DD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BE27F1BA4B4540089A1DD /* Animal.swift */; settings = {ASSET_TAGS = (); }; };
+		5D2BE2801BA4B4540089A1DD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BE27F1BA4B4540089A1DD /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB44C1F1C61AE6100D0F389 /* Environment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Environment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5AB44C201C61AE6100D0F389 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		5AB44C251C64294900D0F389 /* Animal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5AB44C291C642C0B00D0F389 /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
+		5AB44C2B1C642FD200D0F389 /* EnvironmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentsViewController.swift; sourceTree = "<group>"; };
 		5D2BE2671BA4B42A0089A1DD /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2BE26A1BA4B42A0089A1DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D2BE26C1BA4B42A0089A1DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AB44C4E1C64549100D0F389 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BE27F1BA4B4540089A1DD /* Animal.swift */,
+				5AB44C251C64294900D0F389 /* Animal+CoreDataProperties.swift */,
+				5AB44C201C61AE6100D0F389 /* Environment.swift */,
+				5AB44C1F1C61AE6100D0F389 /* Environment+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5AB44C4F1C6454AE00D0F389 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BE26C1BA4B42A0089A1DD /* ViewController.swift */,
+				5AB44C291C642C0B00D0F389 /* AnimalDetailViewController.swift */,
+				5AB44C2B1C642FD200D0F389 /* EnvironmentsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		5D2BE25E1BA4B42A0089A1DD = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				5D2BE26A1BA4B42A0089A1DD /* AppDelegate.swift */,
-				5D2BE26C1BA4B42A0089A1DD /* ViewController.swift */,
-				5D2BE27F1BA4B4540089A1DD /* Animal.swift */,
+				5AB44C4F1C6454AE00D0F389 /* View Controllers */,
+				5AB44C4E1C64549100D0F389 /* Model */,
 				5D2BE26E1BA4B42A0089A1DD /* Main.storyboard */,
 				5D2BE2741BA4B42A0089A1DD /* Assets.xcassets */,
 				5D2BE2761BA4B42A0089A1DD /* LaunchScreen.storyboard */,
@@ -140,10 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB44C2C1C642FD200D0F389 /* EnvironmentsViewController.swift in Sources */,
 				5D2BE26D1BA4B42A0089A1DD /* ViewController.swift in Sources */,
+				5AB44C221C61AE6100D0F389 /* Environment.swift in Sources */,
 				5D2BE2801BA4B4540089A1DD /* Animal.swift in Sources */,
+				5AB44C211C61AE6100D0F389 /* Environment+CoreDataProperties.swift in Sources */,
 				5D2BE26B1BA4B42A0089A1DD /* AppDelegate.swift in Sources */,
 				5D2BE2731BA4B42A0089A1DD /* CoreDataProject.xcdatamodeld in Sources */,
+				5AB44C2A1C642C0B00D0F389 /* AnimalDetailViewController.swift in Sources */,
+				5AB44C261C64294900D0F389 /* Animal+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +327,7 @@
 				5D2BE27E1BA4B42A0089A1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
